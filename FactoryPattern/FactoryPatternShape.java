@@ -22,6 +22,7 @@ public class FactoryPatternShape extends ShapeFactory{
     // Default method functionality
     circle.check(rectangle);
     circle.check(square);
+    square.check(square);
   }
 
 }
